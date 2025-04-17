@@ -14,8 +14,8 @@ Make sure your system is up-to-date and you are using a Debian/Ubuntu-based Linu
   - Download and extract SIESTA source code
   - Configure build using CMake with necessary options
   - Build and install the program
- 
-  - ---
+
+---
 
 ## ⚙️ How to Use
 
@@ -24,33 +24,25 @@ Make sure your system is up-to-date and you are using a Debian/Ubuntu-based Linu
 ```bash
 git clone https://github.com/alikhorrami1998/siesta-installer.git
 cd siesta-installer
-
 ```
-###2. Make Script Executable
+
+### 2. Make Script Executable
 
 ```bash
-
 chmod +x install_siesta.sh
-
 ```
-###3. Run the Installation
+
+### 3. Run the Installation
 
 ```bash
-
 ./install_siesta.sh
-
 ```
+
 This will automatically:
 
-Install required packages
-
-Download SIESTA 5.2.2
-
-Configure the build using MPI and other optional components
-
-Compile with all available cores
-
-Install SIESTA system-wide
-
-
+- Install required packages  
+- Download SIESTA 5.2.2  
+- Configure the build using MPI and other optional components  
+- Compile with all available cores  
+- Install SIESTA system-wide
 
