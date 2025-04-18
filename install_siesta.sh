@@ -38,17 +38,9 @@ echo "=== Downloading SIESTA 5.2.2 ==="
 wget https://gitlab.com/siesta-project/siesta/-/releases/5.2.2/downloads/siesta-5.2.2.tar.gz
 
 echo "=== Extracting archive ==="
+tar -xsf siesta-5.2.2.tar.gz
 
-# Extract to temp folder
-mkdir temp_extract
-tar -xzf siesta-5.2.2.tar.gz -C temp_extract
-
-# Move content from siesta-5.2.2 to current folder
-mv temp_extract/siesta-5.2.2/* ./
-mv temp_extract/siesta-5.2.2/.[!.]* ./ 2>/dev/null
-
-# Cleanup
-rm -rf temp_extract siesta-5.2.2.tar.gz
+cd siesta-5.2.2
 
 echo "=== Creating build directory ==="
 mkdir -p build && cd build
