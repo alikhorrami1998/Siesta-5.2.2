@@ -41,9 +41,23 @@ chmod +x install_siesta.sh
 
 This will automatically:
 
+
+
+
 - Install required packages  
 - Download SIESTA 5.2.2  
 - Configure the build using MPI and other optional components  
 - Compile with all available cores  
 - Install SIESTA system-wide
+
+
+
+📥 Download
+To install WSL and the Ubuntu 24.04 LTS distribution, please download the required files from the Releases section of this repository.
+
+
+📁 Files included in the Release:
+wsl.2.5.6.0.x64.msi – Installer for installing or updating Windows Subsystem for Linux (WSL)
+
+CanonicalGroupLimited.Ubuntu_2404.1.68.0_neutral_._79rhkp1fndgsc.AppxBundle – Installation package for Ubuntu 24.04 (manual installation on Windows)
 
