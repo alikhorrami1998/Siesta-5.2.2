@@ -51,7 +51,7 @@ chmod +x install_siesta.sh
 📥 دانلود
 برای نصب WSL و توزیع Ubuntu 24.04، لطفاً فایل‌های مورد نیاز را از بخش Releases همین ریپازیتوری دانلود کنید.
 
-فایل‌های موجود در Release:
-فایل wsl.2.5.6.0.x64.msi – جهت نصب یا به‌روزرسانی Windows Subsystem for Linux
+📁 فایل‌های موجود در Release:
+wsl.2.5.6.0.x64.msi – برای نصب یا به‌روزرسانی Windows Subsystem for Linux (WSL)
 
-فایل CanonicalGroupLimited.Ubuntu_2404.1.68.0_neutral_._79rhkp1fndgsc.AppxBundle – فایل نصبی توزیع Ubuntu 24.04 
+CanonicalGroupLimited.Ubuntu_2404.1.68.0_neutral_._79rhkp1fndgsc.AppxBundle – فایل نصبی Ubuntu 24.04 برای نصب دستی در محیط Windows
