@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -e  # در صورت وقوع خطا، اسکریپت متوقف شود
+set -e  
 
 echo "=== Updating system ==="
 sudo apt update && sudo apt upgrade -y
