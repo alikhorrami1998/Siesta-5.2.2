@@ -34,13 +34,13 @@ sudo apt install -y \
     bison \
     flex
 
-echo "=== Downloading SIESTA 5.2.2 ==="
-wget https://gitlab.com/siesta-project/siesta/-/releases/5.2.2/downloads/siesta-5.2.2.tar.gz
+echo "=== Downloading SIESTA 5.4.0 ==="
+wget https://gitlab.com/siesta-project/siesta/-/releases/5.4.0/downloads/siesta-5.4.0.tar.gz
 
 echo "=== Extracting archive ==="
-tar -xsf siesta-5.2.2.tar.gz
+tar -xsf siesta-5.4.0.tar.gz
 
-cd siesta-5.2.2
+cd siesta-5.4.0
 
 echo "=== Creating build directory ==="
 mkdir -p build && cd build
