@@ -1,7 +1,7 @@
 
 # SIESTA 5.4.0 - Build & Installation Script
 
-This repository provides a complete Bash script to automate the installation and compilation of **SIESTA 5.2.2** with support for MPI, SCALAPACK, NetCDF, LibXC, ELSI, and more on Debian/Ubuntu-based systems.
+This repository provides a complete Bash script to automate the installation and compilation of **SIESTA 5.4.0** with support for MPI, SCALAPACK, NetCDF, LibXC, ELSI, and more on Debian/Ubuntu-based systems.
 > 🇮🇷 [برای مشاهده نسخه فارسی کلیک کنید](./README.fa.md)
 ## 📦 Prerequisites
 
@@ -23,8 +23,8 @@ Make sure your system is up-to-date and you are using a Debian/Ubuntu-based Linu
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/alikhorrami1998/Siesta-5.2.2.git
-cd Siesta-5.2.2
+git clone https://github.com/alikhorrami1998/Siesta-5.4.0.git
+cd Siesta-5.4.0
 ```
 
 ### 2. Make Script Executable
@@ -45,7 +45,7 @@ This will automatically:
 
 
 - Install required packages  
-- Download SIESTA 5.2.2  
+- Download SIESTA 5.4.0
 - Configure the build using MPI and other optional components  
 - Compile with all available cores  
 - Install SIESTA system-wide
