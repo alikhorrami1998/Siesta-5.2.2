@@ -1,5 +1,5 @@
 
-# SIESTA 5.2.2 - Build & Installation Script
+# SIESTA 5.4.0 - Build & Installation Script
 
 This repository provides a complete Bash script to automate the installation and compilation of **SIESTA 5.2.2** with support for MPI, SCALAPACK, NetCDF, LibXC, ELSI, and more on Debian/Ubuntu-based systems.
 > 🇮🇷 [برای مشاهده نسخه فارسی کلیک کنید](./README.fa.md)
