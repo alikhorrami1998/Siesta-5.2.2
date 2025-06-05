@@ -11,6 +11,8 @@ brew install netcdf
 brew install hdf5
 brew install cmake
 brew install make
+brew install lapack
+
 
 # نصب کتابخانه‌های اضافی برای محاسبات علمی
 brew install openblas
