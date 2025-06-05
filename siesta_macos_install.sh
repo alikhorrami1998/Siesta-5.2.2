@@ -32,18 +32,8 @@ mkdir -p build
 cd build
 
 # پیکربندی با CMake
-cmake .. \
-    -DCMAKE_C_COMPILER=gcc-13 \
-    -DCMAKE_Fortran_COMPILER=gfortran-13 \
-    -DMPI_C_COMPILER=mpicc \
-    -DMPI_Fortran_COMPILER=mpif90 \
-    -DCMAKE_INSTALL_PREFIX=$HOME/software/siesta/install \
-    -DWITH_MPI=ON \
-    -DWITH_NETCDF=ON \
-    -DWITH_HDF5=ON \
-    -DSCALAPACK_LIBRARY=$(brew --prefix scalapack)/lib/libscalapack.dylib \
-    -DBLAS_LIBRARY=$(brew --prefix openblas)/lib/libblas.dylib \
-    -DLAPACK_LIBRARY=$(brew --prefix openblas)/lib/liblapack.dylib
+
+cmake .. -DCMAKE_Fortran_COMPILER=gfortran -DMPI_Fortran_COMPILER=mpif90 -DCMAKE_BUILD_TYPE=Release -DMPI=ON -DSCALAPACK_LIBRARIES=/opt/homebrew/lib/libscalapack.a -DBLAS_LIBRARIES=/opt/homebrew/lib/libblas.a -DLAPACK_LIBRARIES=/opt/homebrew/lib/liblapack.a
 
 # کامپایل
 make -j$(sysctl -n hw.ncpu)
