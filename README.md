@@ -23,8 +23,8 @@ Make sure your system is up-to-date and you are using a Debian/Ubuntu-based Linu
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/alikhorrami1998/Siesta-5.4.0.git
-cd Siesta-5.4.0
+git clone https://github.com/alikhorrami1998/Siesta-5.2.2.git
+cd Siesta-5.2.2
 ```
 
 ### 2. Make Script Executable
