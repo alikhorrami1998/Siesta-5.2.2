@@ -45,7 +45,7 @@ This will automatically:
 
 
 - Install required packages  
-- Download SIESTA 5.4.0
+- Download SIESTA 5.2.2
 - Configure the build using MPI and other optional components  
 - Compile with all available cores  
 - Install SIESTA system-wide
