@@ -52,6 +52,7 @@ cmake .. \
     -DCMAKE_Fortran_COMPILER=mpif90 \
     -DCMAKE_CXX_COMPILER=mpicxx \
     -Dlibgridxc_FIND_METHOD=fetch \
+    -DSIESTA_WITH_FLOOK=ON \
     -DSIESTA_WITH_OPENMP=ON \
     -DSCALAPACK_LIBRARY=scalapack-openmpi \
     -DSCALAPACK_LIBRARY_DIR=/usr/lib/x86_64-linux-gnu \
